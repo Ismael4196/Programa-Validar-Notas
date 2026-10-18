@@ -1,0 +1,39 @@
+# Python: archivos generados y cachés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales y configuración local
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Pruebas, análisis y empaquetado
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Editores e IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.bak
+*.node
+*.swp
+
